@@ -1,7 +1,7 @@
 body {
-    height: 350px;
     background-image: url("xv.png");
   background-size: cover;
     background-repeat:no-repeat;
-    background-position: relative;
+    background-position: center center;
+    background-attachment: fixed;
   }
