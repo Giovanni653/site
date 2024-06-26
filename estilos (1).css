@@ -1,0 +1,113 @@
+/* Estilos generales */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5; /* Fondo gris claro */
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+    font-family: "chunkfive_printregular";
+    src: url("../webfontkit-20240624-214152/chunk_five_print-webfont.woff2") format('woff2'),
+         url("../webfontkit-20240624-214152/chunk_five_print-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+        header {
+            background-color: #4CAF50; /* Verde relacionado con primeros auxilios */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #4CAF50; /* Verde relacionado con primeros auxilios */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            clear: both;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            flex: 1;
+            text-align: left;
+            margin-left: 20px;
+        }
+        .menu {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            margin-right: 20px;
+        }
+        .menu li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .menu li a:hover {
+            background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff; /* Fondo blanco */
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #333; /* Color de texto para las opciones del dropdown */
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .dropdown-content a:hover {
+            background-color: #f2f2f2; /* Color de fondo al pasar el mouse */
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        article {
+            flex-basis: 100%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        article h2 {
+            color: #333;
+        }
+        /* Estilos para diseño responsivo */
+        @media only screen and (min-width: 7800px) {
+            article {
+                flex-basis: calc(50% - 20px);
+                margin-right: 200px;
+            }
+            article:nth-child(even) {
+                margin-right: 0;
+            }
+        }
+        p {
+
+            color: black;
+        }

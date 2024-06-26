@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos de vida saludable</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5; /* Fondo gris claro */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF0000; /* Rojo relacionado con primeros auxilios */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #FF0000; /* Rojo relacionado con primeros auxilios */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            clear: both;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            flex: 1;
+            text-align: left;
+            margin-left: 20px;
+        }
+        .menu {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            margin-right: 20px;
+        }
+        .menu li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .menu li a:hover {
+            background-color: #45a049; /* Verde más oscuro al pasar el mouse */
+        }
+        .dropdown {
+            position: relative;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff; /* Fondo blanco */
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: #333; /* Color de texto para las opciones del dropdown */
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .dropdown-content a:hover {
+            background-color: #f2f2f2; /* Color de fondo al pasar el mouse */
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        article {
+            flex-basis: 100%;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        article h2 {
+            color: #333;
+        }
+        /* Estilos para diseño responsivo */
+        @media only screen and (min-width: 7800px) {
+            article {
+                flex-basis: calc(50% - 20px);
+                margin-right: 200px;
+            }
+            article:nth-child(even) {
+                margin-right: 0;
+            }
+        }
+        p {
+
+            color: black;
+        }
+    </style>
+    <style>
+        /* Cargar fuentes desde Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Datos">
+                <a href="Institución.html">Institución</a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="D:\Mi Vida Saludable\index.html"Mi Vida Saludable</a><a class="dropdown-toggle" id="vida-saludable-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <ul class="dropdown-menu" aria-labelledby="vida-saludable-dropdown">
+
+                        <li><a class="dropdown-item" href="#nutricion">Alimentación Saludable</a></li>
+                        <li><a class="dropdown-item" href="#ejercicio">Actividad Física Diaria</a></li>
+                        <li><a class="dropdown-item" href="#bienestar-mental">Manejo del Estrés</a></li>
+                        <li><a class="dropdown-item" href="#prevencion">Sueño saludable</a></li>
+                        <li><a class="dropdown-item" href="#manejo-estres">Prevenir Enfermedades</a></li>
+                        <li><a class="dropdown-item" href="#manejo-estres">Consumo Responsable de Alcohol</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    </style>
+
+    <article>
+
+<center><h2>Nombre</h2></center>
+<center><p>Maria Guadalupe Álvarez Álvarez</p></center>
+
+<center><h4>MATERIA</h4></center>
+<center><p>Diseño y Elaboración de Páginas Web</p></center>
+
+<center><h4>MAESTRO</h4></center>
+<center><p>Octavio Alberto Santiago Delgado</p></center>
+
+<center><h4>CARRERA</h4></center>
+<center><p>Informática</p></center>
+
+ <center><h2>Numero</h2></center>
+<center><p>311-504-79-82</p></center>
+
+<center><img src="https://www.gob.mx/cms/uploads/action_program/main_image/14158/logo_conalep_avatar_acompa_amiento.jpg" height="310 px"></center>
+    </article>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <p>INSTITUCIÓN DEL PLANTEL CONALEP 169 &copy; 2024 | MI VIDA SALUDABLE</p>
+    </footer>
+    
+    <!-- JavaScript para los componentes de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
